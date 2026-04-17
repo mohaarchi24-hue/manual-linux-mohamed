@@ -76,6 +76,38 @@
 
         <hr>
 
+	<section>
+            <h1>Comando <code>head</code></h1>
+            <p>
+                El comando <strong>head</strong> se utiliza para mostrar la parte inicial de un archivo (por defecto, las primeras 10 líneas). Es ideal para previsualizar archivos grandes.
+            </p>
+
+            <h3>Parámetros más comunes:</h3>
+            <ul>
+                <li><strong>-n [número]:</strong> Muestra la cantidad específica de líneas indicada.</li>
+                <li><strong>-c [bytes]:</strong> Muestra el número específico de bytes iniciales.</li>
+            </ul>
+
+            <p><em>Uso básico:</em> <code>$ head -n 5 archivo.txt</code> (Muestra las primeras 5 líneas).</p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h1>Comando <code>tail</code></h1>
+            <p>
+                El comando <strong>tail</strong> es el opuesto a head; muestra la parte final de un archivo (por defecto, las últimas 10 líneas).
+            </p>
+
+            <h3>Parámetros más comunes:</h3>
+            <ul>
+                <li><strong>-n [número]:</strong> Muestra las últimas líneas especificadas.</li>
+                <li><strong>-f:</strong> (<em>Follow</em>) Muestra las líneas nuevas en tiempo real conforme se añaden al archivo. Muy usado para monitorizar logs.</li>
+            </ul>
+
+            <p><em>Uso básico:</em> <code>$ tail -f /var/log/syslog</code></p>
+        </section>
+
 	
 </body>
 </html>
